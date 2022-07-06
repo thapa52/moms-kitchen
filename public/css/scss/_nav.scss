@@ -1,0 +1,32 @@
+:root{
+    --background-gradient-color: linear-gradient(
+        180deg,
+        #fff 0%,
+        #eeeeee70 63%
+      );
+}
+.navbar{
+    background: var(--background-gradient-color) !important;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    .navbar-nav{
+        width: 100%;
+        .col{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            .nav-item{
+                .nav-link{
+                    color: #333;
+                    font-family: 'Poppins';
+                    font-weight: 600;
+                }
+                .nav-link:hover{
+                    color: crimson;
+                }
+            }
+        }
+    }
+}

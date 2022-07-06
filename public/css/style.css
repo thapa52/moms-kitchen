@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --background-gradient-color: linear-gradient(
+        180deg,
+        #fff 0%,
+        #eeeeee70 63%
+      );
+}
+
+.navbar {
+  background: var(--background-gradient-color) !important;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+}
+
+.navbar .navbar-nav {
+  width: 100%;
+}
+
+.navbar .navbar-nav .col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .navbar-nav .col .nav-item .nav-link {
+  color: #333;
+  font-family: 'Poppins';
+  font-weight: 600;
+}
+
+.navbar .navbar-nav .col .nav-item .nav-link:hover {
+  color: crimson;
+}
+
+.banner .carousel-inner .carousel-item img {
+  height: 110vh;
+}
+/*# sourceMappingURL=style.css.map */
